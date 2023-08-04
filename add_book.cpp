@@ -1,34 +1,31 @@
-#include "header.h"
+#include "header.hpp"
 
 void add_book(int& num, Book books[])
 {
-    string title,author,genre,due_date;
-    string ISBN,publication_year;
-    int N_book;
+    int N_book=0;
     //N_book ....number of books that the user wants to add.
-    cout<<"How many books do you want to add?";
+    cout<<"How many books do you want to add?" << endl;
     cin>>N_book;
-    cout<<"\t\tPlease fill these informations:"<<endl;
-    //ask the user to fullfill info about the books
-   for(int i=0;i<N_book;i++){
-        cout<<"Book "<<num+1<<" :"<<endl;
-        cout<<"\t\tTitle: ";
-        cin>>books[num].title;
-         cout<<"\t\tAuthor: ";
-        cin>>books[num].author;
-         cout<<"\t\tGenre: ";
-        cin>>books[num].genre;
-        cout<<"\t\tISBN of the book: ";
-        cin>>books[num].ISBN;
-        cout<<"\t\tPublication year:";
-        cin>>books[num].publication_year;
-      books[num].title=title;
-      books[num].author=author;
-      books[num].genre;
-      books[num].ISBN = ISBN;
-      books[num].publication_year= publication_year;
-       num++;
-       }
-       save_books(num,books);
- 
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    for(int i=0;i<N_book;i++)
+    {
+      cout<<"Book "<<num+1<<" :"<<endl;
+      cout<<"\tTitle: ";
+      getline(cin, books[num].title);
+      cout<<"\tAuthor: ";
+      getline(cin, books[num].author);
+      cout<<"\tGenre: ";
+      getline(cin, books[num].Genre);
+      cout<<"\tISBN: ";
+      getline(cin, books[num].ISBN);
+      cout<<"\tPublication year:";
+      getline(cin, books[num].Publication_year);
+      cout << "Book successfully added." << endl;
+      books[num].status="true";
+      books[num].due_date="none";
+      num++;
+    }
+    save_books(num,books);
 }
