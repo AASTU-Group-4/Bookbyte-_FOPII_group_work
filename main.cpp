@@ -3,7 +3,7 @@
 #include "search.cpp"
 #include "save_books.cpp"
 #include "recomendation.cpp"
-#include " load_books.cpp"
+#include "load_books.cpp"
 #include "display.cpp"
 #include "browse.cpp"
 #include "add_book.cpp"
@@ -12,16 +12,16 @@
 int main(void)
 {
     Book books[250];
-    int num_books=0, choice=0;
+    int num_books=0, choice=0, pass;
     load_book(num_books, books);
     do
     {
         cout << "----Welcome to BookByte Library----"<<endl;
-        cout << "1.Recommendation" << endl << "[To get book recommendations to read]"<<endl;
-        cout << "2.Browse books" << endl<< "[To find list of books in our library]" << endl;
-        cout << "3.Search a book" << endl << "[To find your preferred book from our list]" << endl;
-        cout << "4.Adminstration" << endl << "[To Access and update the status of books when borrowed and/or returned]" << endl;
-        cout << "5.Exit" << endl << "[Exit to desktop]"<< endl;
+        cout << "\n1.Recommendation" << endl << "[To get book recommendations to read]"<<endl;
+        cout << "\n2.Browse books" << endl<< "[To find list of books in our library]" << endl;
+        cout << "\n3.Search a book" << endl << "[To find your preferred book from our list]" << endl;
+        cout << "\n4.Administration" << endl << "[To Access and update the status of books when borrowed and/or returned]" << endl;
+        cout << "\n5.Exit" << endl << "[Exit to desktop]"<< endl;
         cin >> choice;
         system("cls");
         switch (choice)
@@ -37,7 +37,7 @@ int main(void)
                 break;
             case 4:
                 cout << "Enter the Password: " << endl;
-                cin >> pass;
+                cin>>pass;
 
                 if (pass == 1234)
                 {                
@@ -60,7 +60,7 @@ int main(void)
                 }
                 else 
                 { 
-                    cout << "Wrong Password" << end;
+                    cout << "Wrong Password" << endl;
                 }
                     break;
             case 5:

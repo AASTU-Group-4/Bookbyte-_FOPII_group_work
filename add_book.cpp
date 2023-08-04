@@ -11,7 +11,7 @@ void add_book(int& num, Book books[])
 
     for(int i=0;i<N_book;i++)
     {
-      cout << " " 
+      cout<<"---- Welcome to BookByte Library ----"<<endl; 
       cout<<"Book "<<num+1<<" :"<<endl;
       cout<<"\tTitle: \n please insert with the appropriate format, example: [Book Title]";
       getline(cin, books[num].title);
@@ -24,7 +24,7 @@ void add_book(int& num, Book books[])
         cout<<"\tISBN: \n please insert the appropriate 13-digit unique ISBN";
         getline(cin, books[num].ISBN);
       }
-      while(book[num].ISBN.length != 13 );
+      while(books[num].ISBN.length != 13 );
       cout<<"\tPublication year:  \n please enter the appropriate format [YYYY], eample: 2023";
       getline(cin, books[num].Publication_year);
       cout << "Book successfully added." << endl;
