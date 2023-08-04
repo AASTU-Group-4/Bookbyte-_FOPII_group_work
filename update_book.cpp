@@ -11,13 +11,13 @@ void update_book(int& num, Book books[])
     {
       cout<<" choose: \n1 to update status to borrowed \n2 to returned \nelse to cancel"<<endl ;
       cin>>status;
-      if (status=="1")//to borrow
+      if (status=='1')//to borrow
       {
            books[n-1].status="Borrowed";
            getline(cin,due_date);
            cout<<"\nUpdate successful";
       }
-      else if(status=="2")//to return
+      else if(status=='2')//to return
       {
         books[n-1].status="Available";
         cout<<"\nUpdate successful";
