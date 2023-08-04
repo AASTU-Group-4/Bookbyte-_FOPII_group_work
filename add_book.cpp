@@ -19,8 +19,12 @@ void add_book(int& num, Book books[])
       getline(cin, books[num].author);
       cout<<"\tGenre: \n please insert the correct spelling for the genres, example: [Fiction, Poetry, Drama, Comic..]";
       getline(cin, books[num].Genre);
-      cout<<"\tISBN: \n please insert the appropriate 13-digit unique ISBN";
-      getline(cin, books[num].ISBN);
+      do
+      {
+        cout<<"\tISBN: \n please insert the appropriate 13-digit unique ISBN";
+        getline(cin, books[num].ISBN);
+      }
+      while(book[num].ISBN.length != 13 );
       cout<<"\tPublication year:  \n please enter the appropriate format [YYYY], eample: 2023";
       getline(cin, books[num].Publication_year);
       cout << "Book successfully added." << endl;

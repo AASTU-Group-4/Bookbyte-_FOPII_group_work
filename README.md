@@ -17,7 +17,7 @@ The browse function takes an integer num and an array of Book objects books[] as
 
 ### Recommendation
 
-The recommendation function takes an integer num and an array of Book objects books[] as parameters and provides users with recommendations based on the books they have previously viewed or searched for.
+The recommendation function takes an integer num and an array of Book objects books[] as parameters and provides users with recommendations.
 
 ### Search
 
@@ -25,11 +25,11 @@ The search function takes an integer num and an array of Book objects books[] as
 
 ### Add Book
 
-The add_book function takes an integer num and an array of Book objects books[] as parameters and allows users to add new books to the system.
+The add_book function takes an integer num and an array of Book objects books[] as parameters and allows users(librarians) to add new books to the system.
 
 ### Update Book
 
-The update_book function takes an integer num and an array of Book objects books[] as parameters and allows users to update the details of existing books.
+The update_book function takes an integer num and an array of Book objects books[] as parameters and allows users(libraarians) to update the details of existing books.
 
 ### Load Books
 
