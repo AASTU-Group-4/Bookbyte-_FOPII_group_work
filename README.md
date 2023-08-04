@@ -45,15 +45,15 @@ To use this project, simply download or clone the repository and run the main pr
 
 ## Credits
 
-### 1)Yared Zenebe              ETS1625/14
+#### 1)Yared Zenebe              ETS1625/14
 https://github.com/jae-red21
-### 2)Yeabsira Fikadu           ETS1639/14
+#### 2)Yeabsira Fikadu           ETS1639/14
 https://github.com/DeepBlue-dot
-### 3)Yeabsira Mekonnen         ETS1641/14
+#### 3)Yeabsira Mekonnen         ETS1641/14
 https://github.com/Uvataropal
-### 4)Yeabsira Gebremichael     ETS1644/14
-https://github.com/tsega7664
-### 5)Yeabsira Zelalem          ETS1655/14
+#### 4)Yeabsira Gebremichael     ETS1644/14
 https://github.com/Yeabsiramichael5
-### 6)Yetnayet Lakew            ETS1673/14
+#### 5)Yeabsira Zelalem          ETS1655/14
+https://github.com/tsega7664
+#### 6)Yetnayet Lakew            ETS1673/14
 https://github.com/infangle
