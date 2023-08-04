@@ -1,11 +1,11 @@
-#include "header.h"
+#include "header.hpp"
 
 void load_book(int&num, Book books[])
 {
     ifstream fin ("book.txt");
     if(fin.is_open())
     {
-        for (num= 0; !fin.eof(); num++)
+        while (true)
         {
             getline(fin, books[num].title);
             getline(fin, books[num].author);
@@ -14,6 +14,14 @@ void load_book(int&num, Book books[])
             getline(fin, books[num].Publication_year);
             getline(fin, books[num].status);
             getline(fin, books[num].due_date);
+            if (!fin.eof())
+            {
+                num++;
+            }
+            else
+            {
+                break;
+            }            
         }  
         fin.close();   
     }
@@ -21,6 +29,7 @@ void load_book(int&num, Book books[])
     {
         ofstream fout("book.txt");
         fout.close();
+        cout << "There are no book!!" << endl;
         add_book(num, books);
     }
 }
