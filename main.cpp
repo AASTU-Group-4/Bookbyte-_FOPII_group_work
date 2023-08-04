@@ -16,12 +16,12 @@ int main(void)
     load_book(num_books, books);
     do
     {
-        cout << "Welcome to BookBryte Library"<<endl;
-        cout << "1.Recommendation" << endl;
-        cout << "2.Browes books" << endl;
-        cout << "3.Search a book" << endl;
-        cout << "4.Adminstration" << endl;
-        cout << "5.Exit" << endl;
+        cout << "----Welcome to BookByte Library----"<<endl;
+        cout << "1.Recommendation" << endl << "[To get book recommendations to read]"<<endl;
+        cout << "2.Browse books" << endl<< "[To find list of books in our library]" << endl;
+        cout << "3.Search a book" << endl << "[To find your preferred book from our list]" << endl;
+        cout << "4.Adminstration" << endl << "[To Access and update the status of books when borrowed and/or returned]" << endl;
+        cout << "5.Exit" << endl << "[Exit to desktop]"<< endl;
         cin >> choice;
         system("cls");
         switch (choice)
@@ -36,8 +36,8 @@ int main(void)
                 search(num_books, books);
                 break;
             case 4:                
-                cout << "1.Add a book" << endl;
-                cout << "2.Update a book" << endl;
+                cout << "1.Add a book" << endl << "[To add a new book the list]" << endl;
+                cout << "2.Update a book" << endl << "[To change the status of a book when borrowed and/or returned, record its due date]" << endl;
                 cin >> choice;
                 system("cls");
                 switch (choice)

@@ -11,16 +11,17 @@ void add_book(int& num, Book books[])
 
     for(int i=0;i<N_book;i++)
     {
+      cout << " " 
       cout<<"Book "<<num+1<<" :"<<endl;
-      cout<<"\tTitle: ";
+      cout<<"\tTitle: \n please insert with the appropriate format, example: [Book Title]";
       getline(cin, books[num].title);
-      cout<<"\tAuthor: ";
+      cout<<"\tAuthor: \n please insert with the appropriate format, example: [Firstname Lastname]";
       getline(cin, books[num].author);
-      cout<<"\tGenre: ";
+      cout<<"\tGenre: \n please insert the correct spelling for the genres, example: [Fiction, Poetry, Drama, Comic..]";
       getline(cin, books[num].Genre);
-      cout<<"\tISBN: ";
+      cout<<"\tISBN: \n please insert the appropriate 13-digit unique ISBN";
       getline(cin, books[num].ISBN);
-      cout<<"\tPublication year:";
+      cout<<"\tPublication year:  \n please enter the appropriate format [YYYY], eample: 2023";
       getline(cin, books[num].Publication_year);
       cout << "Book successfully added." << endl;
       books[num].status="true";
