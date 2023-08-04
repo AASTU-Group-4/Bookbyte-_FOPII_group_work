@@ -1,36 +1,38 @@
-#include "header.h"
+#include "header.hpp"
+
+
 void update_book(int& num, Book books[])
 {
-    int n;
-    char status;
-    string due_date;
-    void browse(int &num, Book books[]);
-    cout<<"Choose a book to borrow and enter its book number ";
-    cin>>n;
-    if (n>=1 && n < num)
-    {
-      cout<<" choose: \n1 to update status to borrowed \n2 to returned \nelse to cancel"<<endl ;
-      cin>>status;
-      if (status=='1')//to borrow
-      {
-           books[n-1].status="Borrowed";
-           getline(cin,due_date);
-           cout<<"\nUpdate successful";
-      }
-      else if(status=='2')//to return
-      {
-        books[n-1].status="Available";
-        cout<<"\nUpdate successful";
-      }
-      else
-        cout<<"\nUpdate Cancelled";
-    }
+  int n= search(num, books);
 
-    else
-    {
-     cout<<" Wrong entry ";
-    }
+  cin.clear();
+  cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-   void save_books(int& num, Book books[])
+  if (n>=0 && n < num)
+  {
+    if (books[n].status=="true")//to borrow
+    {
+      books[n].status="false";
+      cout << "Enter due date ([DD/MM/YY] example: 01/05/23): ";
+      getline(cin,books[n].due_date);
+
+      cout<<"Update successful" << endl;
+      cout << "Book " << n+1 << endl; 
+      display(books[n]);
+    }
+    else if(books[n].status=="false")//to return
+    {
+      books[n].status="true";
+      books[n].due_date="none";
+      
+      cout << "Change available to: true";
+      getchar();
+      cout<<"Update successful"<< endl;
+      cout << "Book " << n+1<< endl; 
+      display(books[n]);
+    }
+    save_books(num,books);
+  }
+
 }
  

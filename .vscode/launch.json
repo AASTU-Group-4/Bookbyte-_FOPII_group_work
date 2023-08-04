@@ -33,8 +33,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/fop clone/Bookbyte-_FOPII_group_work",
-      "program": "c:/fop clone/Bookbyte-_FOPII_group_work/build/Debug/outDebug",
+      "cwd": "c:/github/Bookbyte-_FOPII_group_work",
+      "program": "c:/github/Bookbyte-_FOPII_group_work/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
