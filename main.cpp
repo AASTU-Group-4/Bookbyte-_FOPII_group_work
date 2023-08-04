@@ -1,4 +1,13 @@
 #include "header.h"
+#include "update_book.cpp"
+#include "search.cpp"
+#include "save_books.cpp"
+#include "reccomendation.cpp"
+#include "load_books.cpp"
+#include "display.cpp"
+#include "browse.cpp"
+#include "add_book.cpp"
+
 
 int main(void)
 {
@@ -7,6 +16,7 @@ int main(void)
     load_book(num_books, books);
     do
     {
+        cout << "Welcome to BookBryte Library"<<endl;
         cout << "1.Recommendation" << endl;
         cout << "2.Browes books" << endl;
         cout << "3.Search a book" << endl;
@@ -20,7 +30,7 @@ int main(void)
                 reccomendation(num_books, books);
                 break;
             case 2:
-                browes(num_books, books);
+                browse(num_books, books);
                 break;
             case 3:
                 search(num_books, books);
@@ -50,6 +60,8 @@ int main(void)
             
             default:
                 cout << "Invalid Input" << endl;
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 break;
         }
     } while (true);  
