@@ -19,7 +19,7 @@ void browse(int& num, Book books[])
         case 2:
             for(int i= 0; i<num ; i++)
             {
-                if(books[i].Genre=="Fiction")
+                if(books[i].Genre=="Fiction" || books[i].Genre=="fiction")
                 {
                     cout <<"Book "<<i+1<<endl;
                     display( books[i]);
@@ -29,7 +29,7 @@ void browse(int& num, Book books[])
         case 3:
             for(int i= 0; i<num ; i++)
             {
-                if(books[i].Genre=="Non-fiction")
+                if(books[i].Genre=="Non-fiction" || books[i].Genre=="non-fiction" )
                 {
                     cout <<"Book "<<i+1<<endl;
                     display( books[i]);
