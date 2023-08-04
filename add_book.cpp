@@ -4,7 +4,7 @@ void add_book(int& num, Book books[])
 {
     int N_book=0;
     //N_book ....number of books that the user wants to add.
-    cout<<"How many books do you want to add?" << endl;
+    cout<<"How many books do you want to add? " << endl;
     cin>>N_book;
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
