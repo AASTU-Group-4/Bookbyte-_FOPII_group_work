@@ -1,7 +1,7 @@
 # Bookbyte-_FOPII_group_work
 
 This project is a Book Management System that allows users to browse, search, add, update, save and load books. 
-![alt text](https://t4.ftcdn.net/jpg/04/09/86/45/360_F_409864514_22BSaAnubdKn2V979WmVIuoIXYXtM3XF.jpg)
+## ![alt text](https://t4.ftcdn.net/jpg/04/09/86/45/360_F_409864514_22BSaAnubdKn2V979WmVIuoIXYXtM3XF.jpg)
 
 ## Functionalities
 
