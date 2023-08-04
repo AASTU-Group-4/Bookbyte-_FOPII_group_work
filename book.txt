@@ -1,13 +1,13 @@
 To Kill a Mockingbird
 Harper Lee
 Fiction
-9780446310789 
+9780446310789
 1960
-true
-none
+false
+12 12 2023
 The Catcher in the Rye
 J.D. Salinger
-Fiction 
+Fiction
 9780316769174
 1951
 true
@@ -56,15 +56,197 @@ true
 none
 The Hitchhiker's Guide to the Galaxy
 Douglas Adams
-Science Fiction/Comedy
+Science Fiction
 9780345391803
 1979
 true
 none
 The Hunger Games
 Suzanne Collins
-Science Fiction/Dystopian Fiction
+Science Fiction
 9780439023481
 2008
+true
+none
+Wuthering Heights
+Emily Bronte
+Gothic Fiction
+9780141439556
+1847
+true
+none
+The Picture of Dorian Gray
+Oscar Wilde
+Gothic Fiction/Fantasy
+9780141442464
+1890
+true
+none
+Frankenstein
+Mary Shelley
+Gothic Fiction/Science Fiction
+9780486282114
+1818
+true
+none
+The Adventures of Huckleberry Finn
+Mark Twain
+Adventure
+9780486280615
+1884
+true
+none
+Little Women
+Louisa May Alcott
+Fiction
+9780143106654
+1868
+true
+none
+Ender's Game
+Orson Scott Card
+Fiction
+9780812550702
+1985
+true
+none
+The Hitchhiker's Guide to the Galaxy
+Douglas Adams
+Fiction
+9780345391803
+1979
+true
+none
+The Notebook 
+Nicholas Sparks 
+Fiction
+9780446605236
+1996
+true
+none
+Outlander
+Diana Gabaldon
+Historical fiction 
+9780440212560
+1991
+true
+none
+Me Before You
+Jojo Moyes
+Fiction
+9780143124542
+2012
+true
+none
+The Da Vinci Code
+Dan Brown
+Fiction
+9780307474278
+2003
+true
+none
+The Girl on the Train
+Paula Hawkins
+Fiction
+9781594634024
+2015
+true
+none
+The Silence of the Lambs 
+Thomas Harris
+Fiction
+9780312924584
+1988
+true
+none
+The 7 Habits of Highly Effective People 
+Stephen Covey
+Self help
+9780743269513
+1989
+true
+none
+How to Win Friends and Influence People
+Dale Carnegie 
+Self help
+9780671027032
+1936
+true
+none
+The Power of Now
+Eckhart Tolle 
+Self help
+9781577314806
+1997
+true
+none
+Unbroken
+Laura Hillenbrand 
+Biography
+9780812974492
+2010
+true
+none
+The Immortal Life of Henrietta Lacks
+Rebecca Skloot 
+Non-fiction
+9781400052189
+2010
+true
+none
+Into Thin Air: A Personal Account of the Mount Everest Disaster
+Jon Krakauer 
+Non-fiction
+9780385494786
+1997
+true
+none
+The Diary of a Young Girl
+Anne Frank 
+Autobiography
+9780553577129
+1947
+true
+none
+The Lord of the Rings
+J.R.R. Tolkien 
+Fiction
+9780544003415
+1954
+true
+none
+Harry Potter and the Philosopher's Stone
+J.K. Rowling
+Fiction
+9780590353427
+1997
+true
+none
+A Game of Thrones
+George R.R. Martin
+Fiction
+9780553103540
+1996
+true
+none
+Leaves of Grass
+Walt Whitman
+Poetry
+9780486414108
+1855
+true
+none
+The Waste Land
+T.S. Eliot
+Poetry
+9780571247055
+1922
+true
+none
+The Love Song of J. Alfred Prufrock
+T.S. Eliot
+Poetry
+9780571247055
+1915
 true
 none
